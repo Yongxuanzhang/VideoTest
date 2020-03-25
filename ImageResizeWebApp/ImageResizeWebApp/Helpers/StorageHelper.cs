@@ -21,7 +21,7 @@ namespace ImageResizeWebApp.Helpers
                 return true;
             }
 
-            string[] formats = new string[] { ".jpg", ".png", ".gif", ".jpeg",'.webm' };
+            string[] formats = new string[] { ".jpg", ".png", ".gif", ".mp4" };
 
             return formats.Any(item => file.FileName.EndsWith(item, StringComparison.OrdinalIgnoreCase));
         }
